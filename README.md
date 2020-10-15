@@ -1,6 +1,6 @@
 # SauceDemoWizeline
 
-prerequisitos Instalar maven y allure 
+prerequisitos Java, maven y allure 
 
 Para correr los 10 escenarios y general el reporte de allure, mediante la terminal de IntelliJ:
 
