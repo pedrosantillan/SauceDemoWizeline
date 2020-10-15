@@ -11,7 +11,7 @@ de otra manera:
 correr RunnerTest Run 'RunnerTest'
 y en terminal crear y ejecutar Allure report:
 
-mvn clean test allure:report -f pom.xml
+mvn allure:report -f pom.xml
 
 allure serve ./target/allure-results
 
