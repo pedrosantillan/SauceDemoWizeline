@@ -1,0 +1,145 @@
+{
+  "uid" : "c512d3de4280b019",
+  "name" : "3-Logout from products page",
+  "fullName" : "sauce demo 2: 3-Logout from products page",
+  "historyId" : "82374b2d7514b7abb0c1c2a5d5ae915e",
+  "time" : {
+    "start" : 1602729155505,
+    "stop" : 1602729162574,
+    "duration" : 7069
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "hook.setUp(Scenario)",
+    "time" : {
+      "start" : 1602729155505,
+      "stop" : 1602729158714,
+      "duration" : 3209
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Given  the user was logged in correctly \"standard_user\" \"secret_sauce\"",
+      "time" : {
+        "start" : 1602729158714,
+        "stop" : 1602729160082,
+        "duration" : 1368
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "When  the user clicks on logout",
+      "time" : {
+        "start" : 1602729160082,
+        "stop" : 1602729160546,
+        "duration" : 464
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Then  the user validate that was logout correctly",
+      "time" : {
+        "start" : 1602729160546,
+        "stop" : 1602729160596,
+        "duration" : 50
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  },
+  "afterStages" : [ {
+    "name" : "hook.tearDown(Scenario)",
+    "time" : {
+      "start" : 1602729160596,
+      "stop" : 1602729162574,
+      "duration" : 1978
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "EPMXGUAW0506"
+  }, {
+    "name" : "thread",
+    "value" : "40432@EPMXGUAW0506.main(1)"
+  }, {
+    "name" : "feature",
+    "value" : "sauce demo 2"
+  }, {
+    "name" : "story",
+    "value" : "3-Logout from products page"
+  }, {
+    "name" : "suite",
+    "value" : "sauce demo 2"
+  }, {
+    "name" : "testClass",
+    "value" : "3-Logout from products page"
+  }, {
+    "name" : "framework",
+    "value" : "cucumber4jvm"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "gherkin_uri",
+    "value" : "file:src/test/resources/features/SauceDemo2.feature"
+  }, {
+    "name" : "package",
+    "value" : "src.test.resources.features.SauceDemo2_feature.sauce demo 2"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c512d3de4280b019.json",
+  "parameterValues" : [ ]
+}

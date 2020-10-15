@@ -1,0 +1,101 @@
+[ {
+  "uid" : "23b1bb4280d760c7",
+  "name" : "2-login with an invalid user",
+  "time" : {
+    "start" : 1602729397052,
+    "stop" : 1602729401392,
+    "duration" : 4340
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "42293d8ad03f1742",
+  "name" : "3-Logout from products page",
+  "time" : {
+    "start" : 1602729401476,
+    "stop" : 1602729407248,
+    "duration" : 5772
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "767130afe61b2fc7",
+  "name" : "6-add multiple items to the shopping cart",
+  "time" : {
+    "start" : 1602729423152,
+    "stop" : 1602729431054,
+    "duration" : 7902
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e0ab3d586ade399d",
+  "name" : "8-fill users information",
+  "time" : {
+    "start" : 1602729440587,
+    "stop" : 1602729448970,
+    "duration" : 8383
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e351e2015efd8fc7",
+  "name" : "7-missing zip code information",
+  "time" : {
+    "start" : 1602729431062,
+    "stop" : 1602729440579,
+    "duration" : 9517
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "904f34ce1daab5bc",
+  "name" : "1-login with a valid user",
+  "time" : {
+    "start" : 1602729390056,
+    "stop" : 1602729396890,
+    "duration" : 6834
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1cd1840c4656ef56",
+  "name" : "9-final order items",
+  "time" : {
+    "start" : 1602729449007,
+    "stop" : 1602729457746,
+    "duration" : 8739
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "79b1309284c0aff4",
+  "name" : "5-add a single item to the shopping cart",
+  "time" : {
+    "start" : 1602729415538,
+    "stop" : 1602729423104,
+    "duration" : 7566
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "878cc92a48678ff",
+  "name" : "10-complete a purchase",
+  "time" : {
+    "start" : 1602729457803,
+    "stop" : 1602729466816,
+    "duration" : 9013
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f9a8a57ae07c6dd6",
+  "name" : "4-navigate to the shopping cart",
+  "time" : {
+    "start" : 1602729407279,
+    "stop" : 1602729415526,
+    "duration" : 8247
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]
