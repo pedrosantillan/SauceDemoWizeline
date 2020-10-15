@@ -1,6 +1,8 @@
 # SauceDemoWizeline
 
+Para correr los 10 escenarios y general el reporte de allure en
 intellij terminal command line:
 
-1.  mvn clean test allure:report -f pom.xml
-2.  allure serve ./target/allure-results
+mvn clean test allure:report -f pom.xml
+
+allure serve ./target/allure-results
