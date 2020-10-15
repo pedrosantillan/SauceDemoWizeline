@@ -1,2 +1,5 @@
 .idea/
 debug.log
+.allure/
+target/
+
