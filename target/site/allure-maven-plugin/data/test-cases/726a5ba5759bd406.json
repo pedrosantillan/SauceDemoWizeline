@@ -1,0 +1,162 @@
+{
+  "uid" : "726a5ba5759bd406",
+  "name" : "5-add a single item to the shopping cart",
+  "fullName" : "sauce demo 2: 5-add a single item to the shopping cart",
+  "historyId" : "d229ab133cfc78f7121682c907f96fa",
+  "time" : {
+    "start" : 1602731497721,
+    "stop" : 1602731507337,
+    "duration" : 9616
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "hook.setUp(Scenario)",
+    "time" : {
+      "start" : 1602731497721,
+      "stop" : 1602731500497,
+      "duration" : 2776
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Given  the user was logged in correctly \"standard_user\" \"secret_sauce\"",
+      "time" : {
+        "start" : 1602731500497,
+        "stop" : 1602731504012,
+        "duration" : 3515
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "And  the user adds a single item to the shopping cart",
+      "time" : {
+        "start" : 1602731504012,
+        "stop" : 1602731504175,
+        "duration" : 163
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "When  the user clicks on shopping cart icon",
+      "time" : {
+        "start" : 1602731504175,
+        "stop" : 1602731506379,
+        "duration" : 2204
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "Then  the user Validates that the item has been added to the shopping cart",
+      "time" : {
+        "start" : 1602731506379,
+        "stop" : 1602731506416,
+        "duration" : 37
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 4
+  },
+  "afterStages" : [ {
+    "name" : "hook.tearDown(Scenario)",
+    "time" : {
+      "start" : 1602731506416,
+      "stop" : 1602731507337,
+      "duration" : 921
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "EPMXGUAW0506"
+  }, {
+    "name" : "thread",
+    "value" : "45308@EPMXGUAW0506.main(1)"
+  }, {
+    "name" : "feature",
+    "value" : "sauce demo 2"
+  }, {
+    "name" : "story",
+    "value" : "5-add a single item to the shopping cart"
+  }, {
+    "name" : "suite",
+    "value" : "sauce demo 2"
+  }, {
+    "name" : "testClass",
+    "value" : "5-add a single item to the shopping cart"
+  }, {
+    "name" : "framework",
+    "value" : "cucumber4jvm"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "gherkin_uri",
+    "value" : "file:src/test/resources/features/SauceDemo2.feature"
+  }, {
+    "name" : "package",
+    "value" : "src.test.resources.features.SauceDemo2_feature.sauce demo 2"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "726a5ba5759bd406.json",
+  "parameterValues" : [ ]
+}

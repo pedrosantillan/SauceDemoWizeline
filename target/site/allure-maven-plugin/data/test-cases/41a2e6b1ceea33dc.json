@@ -1,0 +1,147 @@
+{
+  "uid" : "41a2e6b1ceea33dc",
+  "name" : "4-navigate to the shopping cart",
+  "fullName" : "sauce demo 2: 4-navigate to the shopping cart",
+  "historyId" : "e9029ccdf00f8e93d96eb66847bd0724",
+  "time" : {
+    "start" : 1602731489551,
+    "stop" : 1602731497714,
+    "duration" : 8163
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "hook.setUp(Scenario)",
+    "time" : {
+      "start" : 1602731489551,
+      "stop" : 1602731492541,
+      "duration" : 2990
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Given  the user was logged in correctly \"standard_user\" \"secret_sauce\"",
+      "time" : {
+        "start" : 1602731492541,
+        "stop" : 1602731494499,
+        "duration" : 1958
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "When  the user clicks on shopping cart icon",
+      "time" : {
+        "start" : 1602731494499,
+        "stop" : 1602731496744,
+        "duration" : 2245
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "Then  the user Validates that navigate to the shopping cart page",
+      "time" : {
+        "start" : 1602731496744,
+        "stop" : 1602731496787,
+        "duration" : 43
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 3
+  },
+  "afterStages" : [ {
+    "name" : "hook.tearDown(Scenario)",
+    "time" : {
+      "start" : 1602731496787,
+      "stop" : 1602731497714,
+      "duration" : 927
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "EPMXGUAW0506"
+  }, {
+    "name" : "thread",
+    "value" : "45308@EPMXGUAW0506.main(1)"
+  }, {
+    "name" : "feature",
+    "value" : "sauce demo 2"
+  }, {
+    "name" : "story",
+    "value" : "4-navigate to the shopping cart"
+  }, {
+    "name" : "suite",
+    "value" : "sauce demo 2"
+  }, {
+    "name" : "testClass",
+    "value" : "4-navigate to the shopping cart"
+  }, {
+    "name" : "framework",
+    "value" : "cucumber4jvm"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "gherkin_uri",
+    "value" : "file:src/test/resources/features/SauceDemo2.feature"
+  }, {
+    "name" : "package",
+    "value" : "src.test.resources.features.SauceDemo2_feature.sauce demo 2"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "41a2e6b1ceea33dc.json",
+  "parameterValues" : [ ]
+}
