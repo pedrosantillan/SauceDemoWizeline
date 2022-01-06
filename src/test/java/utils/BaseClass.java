@@ -23,7 +23,7 @@ public class BaseClass {
     public void startDriver(String localOrRemote, String browserName) throws IOException {
         WebDriver driver = driver();
         if (localOrRemote.equals("local") && browserName.equals("Chrome")){
-            System.setProperty("webdriver.chrome.driver", "src\\test\\resources\\utilities\\chromedriver.exe");
+            System.setProperty("webdriver.chrome.driver", "src/test/resources/utilities/chromedriver");
             driver = new ChromeDriver(getChromeOptions());
         }
         else if (localOrRemote.equals("local") && browserName.equals("Firefox")) {

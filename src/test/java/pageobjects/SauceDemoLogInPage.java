@@ -6,19 +6,19 @@ import utils.BaseActions;
 public class SauceDemoLogInPage extends BaseActions {
 
     public By userNameField() {
-        return By.id("user-name");
+        return By.cssSelector("#user-name");
     }
 
     public By passwordField () {
-        return By.id("password");
+        return By.cssSelector("#password");
     }
 
     public By logInButton () {
-        return By.id("login-button");
+        return By.cssSelector("#login-button");
     }
 
     public By theErrorLogInMessage(){
-        return By.xpath("//button[@class='error-button']");
+        return By.cssSelector("h3[data-test='error']");
     }
 
 }

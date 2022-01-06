@@ -6,22 +6,22 @@ import utils.BaseActions;
 public class SauceDemoYourInformationPage extends BaseActions {
 
     public By firstNameField(){
-        return By.id("first-name");
+        return By.cssSelector("#first-name");
     }
 
     public By LastNameField(){
-        return By.id("last-name");
+        return By.cssSelector("#last-name");
     }
 
     public By continueButton(){
-        return By.xpath("//div[@id='checkout_info_container']/div/form/div[2]/input");
+        return By.cssSelector("#continue");
     }
 
     public By errorMessage(){
-        return By.xpath("//div[@id='checkout_info_container']/div/form/h3/button");
+        return By.cssSelector("h3[data-test='error']");
     }
 
     public By zipCodeField(){
-        return By.id("postal-code");
+        return By.cssSelector("#postal-code");
     }
 }

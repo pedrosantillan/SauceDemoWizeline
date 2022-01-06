@@ -53,12 +53,12 @@ public class ShoppingCartFlow extends SauceDemoProductsPage {
 
     public ArrayList<String> addMultiplesItems() {
         ArrayList<String> namesProduct = new ArrayList<String>();
-        click(addMultipleItemsToCartButton("1"));
-        namesProduct.add(getText(sauceDemoProductsPage.inventoryMultipleItemsNamesLabel("1")));
-        click(addMultipleItemsToCartButton("4"));
-        namesProduct.add(getText(sauceDemoProductsPage.inventoryMultipleItemsNamesLabel("4")));
-        click(addMultipleItemsToCartButton("6"));
-        namesProduct.add(getText(sauceDemoProductsPage.inventoryMultipleItemsNamesLabel("6")));
+        click(addMultipleItemsToCartButton("add-to-cart-sauce-labs-backpack"));
+        namesProduct.add(getText(sauceDemoProductsPage.inventoryMultipleItemsNamesLabel("item_4_title_link")));
+        click(addMultipleItemsToCartButton("add-to-cart-sauce-labs-bolt-t-shirt"));
+        namesProduct.add(getText(sauceDemoProductsPage.inventoryMultipleItemsNamesLabel("item_1_title_link")));
+        click(addMultipleItemsToCartButton("add-to-cart-sauce-labs-onesie"));
+        namesProduct.add(getText(sauceDemoProductsPage.inventoryMultipleItemsNamesLabel("item_2_title_link")));
         return namesProduct;
     }
 
